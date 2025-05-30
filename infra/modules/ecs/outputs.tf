@@ -1,7 +1,7 @@
-# output "alb_dns_name" {
-#   description = "ALB DNS name"
-#   value       = aws_lb.app.dns_name
-# }
+output "alb_dns_name" {
+  description = "ALB DNS name"
+  value       = aws_lb.alb.dns_name
+}
 
 output "ecs_service_name" {
   description = "ECS service name"
